@@ -370,6 +370,11 @@
         <item name="android:textSize">@dimen/emergency_shortcut_tap_hint_text_size</item>
     </style>
 
+    <!--    <style name="RadioInfoTheme" parent="@android:style/Theme.DeviceDefault.DayNight">-->
+    <style name="RadioInfoTheme" parent="Theme.SubSettingsBase">
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+
     <style name="RadioPrimaryButton" parent="android:Widget.DeviceDefault.Button.Colored">
         <item name="android:theme">@style/RoundedCornerThemeOverlay</item>
         <item name="android:textSize">16sp</item>
